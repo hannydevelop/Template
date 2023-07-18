@@ -1,6 +1,6 @@
 //import all dependencies required
-import express from 'express';
-import cors from 'cors'
+const cors = require('cors');
+const express = require('express');
 
 //set variable users as expressRouter
 var welcome = express.Router();
